@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=UZm-nLD_HtTzmTl8aNNBIdyPyTSx3lZV6ggFsImGWDpp9hFDYF0izY2rdpIUpoJ3r_R2tJVfDiv6vS1Lqy1sccZZA6fpUcd4yZMImF4EGRBV2kCxX2CNYL55E8GOW3KikTi9XLFiTp6s9e_0J5t4DAnNfm1FNHJqEU7XohHXCG5e64bjDgrSYwCux-Tc2gIb0p4AOMY_jgTzHpDUrYFoPfDZ_jNYrf3OslIU3pgSTkufJLw1awB74O1a0hB0Jo_JfKA_9CK8jdc_a6eUA1eKafYgOJp_g-ZKCy8pzscg8s-XHTmtKDgye5Vg77u6vruaQjvKpqLQZ3OtzXZ62dupXoKDRtzC2m5I6GbebylSGKnOduCsi-XcMb0cLcNSWc8OwEwSxK8k-_qy5Topz-u9VejpG8DY0bSawD04sEvQhNFN1M6TFJWxfJRWwdF2boVNQcD6d4KxgYDDSv6DuzymW8g-GBC8eY0NJ5lwEh6vLEot7Ba36efh9BGdQi_-ldnbe-LQkJsJ1-V_6QHzRDJxSY2wCfnPphB5DB_9rlC3PGFTS_sAepFOH7N2rMzhJfg6n7A_UFwXXU2SM2whlaOEN6d90srsu70FpmZ7yPkT96XY6zP6G3qvY4-PQXKQHGfnWbj6uyt3n8FhLBD3pYJis66A8viaRAJzC3nNHz1DuXT7elBoBXZrUFxi9yDgFjsoQ1n15_YfGLHFfJgtQKchifuYDKZYwFvYRNr51A3zOKuhr-pS6BoFDuUT__QIRzYS2-aFqz1Bh4pMGXs2172wkymc_DMeFmKAPiuLRR2pmHh4PU1nHws9ksEgcSE9hM9gPWpg8hNEgXAT5c03_AjbBmwlnsXGcpzzFVMtkw_xNnhBtPgW5zwoNQg3G7L03MeZLn4-L92_cAnfaK5kxupkrhmkvd6rKcsTptiCIx5DBZoPo3DV2rSwlSpCUqd0sMNM8jiq7LH4ihB8rY0_kCFToSE1tWIKcmYoTkD1p-AKWP4oKh44WGYVm43boW3kyvNYILmvlGUp6Fv0lQWSsATMp9sZg2-0Wt_prZlhMOxvEbtQHk_48Qw3QH9HFxlKFQDJi6ftPO2su1txKVdZ6JfFcp3oEEKsKtH7Dv-wcqPhkZQpUg48MxTRYqCyy-BGH-o28iej9OlbBEF_ZurDDMQymjjPCZxEFTZgZ-o8PFNb-U_Us5eUJ36_PAjvQjln8TWWm0iXI_5M_Ty1ehHMp-mU2NxMCWP3l-Md7-F-Dgn2B3h0zCcIBCJEK-0dLkfp7epBr4r9hb8_KJ5NJcSpGKcWyyfmM8-2z73BwH4g-y_DLpRuz-Qo2vpzfkKI3L11zcfWR0HmU9dyUAExKvDut_KK90DRQ-hKY6CSrGYBvLGB-JCfC7AiLBvNY5sRS0Vcmh_oFA7LmEQrEXI65aCd1QjSnm5ybrwoQaW0RmvpoiYgido13gUATBSRzgLejcGJJoHF2oIfjQ6a0H9tCqzltOk3laQ-fq5a2RIAtINbQDHVGMRECEMAJFA5BSaLPvwtkuSrp_DMjSLgUILNk-NFN5E7A_fWkCR87Js3TRopNIUj3ssmji_5dwoDFDEsQssWb6UBommufi7ZIX1za7f_xuj3Xw" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+<h4 id="player1_name" ></h4><span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4><span id="player2_score"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Math Quiz</h2>
+<h3 id="player_question"></h3>
+<h3 id="player_answer"></h3>
+<div id="output" class="col-lg-6"></div>
+
+		<br>
+		<br>
+
+		<label>Send You Word: <b style="color: red"></b></label>
+<input type="text" id="word" class="form-control" placeholder="word">
+
+		<br>
+<button onclick="send()" class="btn btn-success" style="width:30%">Send</button>
+
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
